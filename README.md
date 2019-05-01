@@ -2,7 +2,7 @@
 _Slovak eID Decryption tool_ is util for  encryption certificate extraction, from Slovak eID card,
 encrypt any file using encryption certificate and decrpt encrypted file using Slovak eID card.
 
-This program use _AES-256 CBC_ for file encryption and RSA 3072 with *RSA PKCS1 padding* for wrapping AES key (RSA 3072 and PKCS1 padding support Slovak eID).
+This program use _AES-256 CBC_ for file encryption and RSA 3072 with *RSA PKCS1 padding* for wrapping AES key (Slovak eID support RSA 3072 and PKCS1 padding).
 
 This project aim to education [PKCS#11](https://www.cryptsoft.com/pkcs11doc/STANDARD/pkcs-11v2-20.pdf) standard and using using Slovak eID.
 
@@ -12,7 +12,7 @@ Used:
 * [commandline](https://github.com/commandlineparser/commandline) for parsing command line arguments.
 
 ## Prerequisites
- * .Net Core SDK for build,
+ * .Net Core SDK 2.1 for build,
  * Slovak eID card,
  * Driver for smart card reader (from [Slovensko.sk](https://www.slovensko.sk/sk/na-stiahnutie)),
  * Application _eID klient_ (from [Slovensko.sk](https://www.slovensko.sk/sk/na-stiahnutie)).
