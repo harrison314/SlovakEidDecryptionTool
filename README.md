@@ -13,7 +13,7 @@ Used:
 
 ## Prerequisites
  * .Net Core SDK for build,
- * Slovak eID card with ZEP certificate,
+ * Slovak eID card,
  * Driver for smart card reader (from [Slovensko.sk](https://www.slovensko.sk/sk/na-stiahnutie)),
  * Application _eID klient_ (from [Slovensko.sk](https://www.slovensko.sk/sk/na-stiahnutie)).
 
