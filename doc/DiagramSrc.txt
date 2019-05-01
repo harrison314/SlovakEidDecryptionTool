@@ -1,0 +1,11 @@
+title Usage SlovakEidDecryptionTool
+//https://www.websequencediagrams.com/
+
+note right of Bob: eID
+note right of Alice: SecretFile.zip
+note right of Bob: $ SlovakEidDecryptionToolCli exportCert
+Bob->Alice: Send exported certificate BobCert.crt
+note right of Alice: $ SlovakEidDecryptionToolCli encrypt BobCert.crt SecretFile.zip Data.bin
+Alice->Bob: Send encryped file Data.bin
+note right of Bob: $ SlovakEidDecryptionToolCli decrypt Data.bin
+note right of Bob:  SecretFile.zip
