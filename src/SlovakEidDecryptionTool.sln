@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{BA65C02C-6712-4D27-84CE-85AB1731C18E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SlovakEidDecryptionTool", "Src\SlovakEidDecryptionTool\SlovakEidDecryptionTool.csproj", "{D625CFD2-5218-4D52-BB04-37ECA0DB89C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2186C66C-F774-4F0C-B335-5FB0425019C0}"
+	ProjectSection(SolutionItems) = preProject
+		..\build.ps1 = ..\build.ps1
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{4862834F-770B-4992-A473-9B33EBD84127}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SlovakEidDecryptionTool.Tests", "Tests\SlovakEidDecryptionTool.Tests\SlovakEidDecryptionTool.Tests.csproj", "{09DB355C-E7D1-4394-B221-F8EF9BF7B177}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SlovakEidDecryptionToolCli", "Src\SlovakEidDecryptionToolCli\SlovakEidDecryptionToolCli.csproj", "{98B96CB7-F1BF-4EDF-9B22-438E50659E4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D625CFD2-5218-4D52-BB04-37ECA0DB89C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D625CFD2-5218-4D52-BB04-37ECA0DB89C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D625CFD2-5218-4D52-BB04-37ECA0DB89C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D625CFD2-5218-4D52-BB04-37ECA0DB89C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09DB355C-E7D1-4394-B221-F8EF9BF7B177}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09DB355C-E7D1-4394-B221-F8EF9BF7B177}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09DB355C-E7D1-4394-B221-F8EF9BF7B177}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09DB355C-E7D1-4394-B221-F8EF9BF7B177}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98B96CB7-F1BF-4EDF-9B22-438E50659E4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98B96CB7-F1BF-4EDF-9B22-438E50659E4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98B96CB7-F1BF-4EDF-9B22-438E50659E4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98B96CB7-F1BF-4EDF-9B22-438E50659E4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D625CFD2-5218-4D52-BB04-37ECA0DB89C4} = {BA65C02C-6712-4D27-84CE-85AB1731C18E}
+		{09DB355C-E7D1-4394-B221-F8EF9BF7B177} = {4862834F-770B-4992-A473-9B33EBD84127}
+		{98B96CB7-F1BF-4EDF-9B22-438E50659E4D} = {BA65C02C-6712-4D27-84CE-85AB1731C18E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29A2BF3B-D89C-4DD8-BAE0-97F3E8715D07}
+	EndGlobalSection
+EndGlobal
